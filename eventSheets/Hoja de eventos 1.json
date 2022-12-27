@@ -339,15 +339,78 @@
 					}
 				},
 				{
-					"id": "go-to-nextprevious-layout",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 477299121089509,
+					"sid": 775050351455862,
 					"parameters": {
-						"which": "next"
+						"layout": "Escena 9"
 					}
 				}
 			],
 			"sid": 553559441747838
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 873507735644072
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "YUEG",
+					"sid": 933177306423901,
+					"parameters": {
+						"text": "Puntos"
+					}
+				}
+			],
+			"sid": 523959866138818
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar3",
+					"sid": 274017920088052
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 258930784271861,
+					"parameters": {
+						"layout": "Escena 10"
+					}
+				}
+			],
+			"sid": 719085475484815
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar2",
+					"sid": 241064439025979
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 932189953690711,
+					"parameters": {
+						"layout": "Escena 7"
+					}
+				}
+			],
+			"sid": 355777613502378
 		},
 		{
 			"eventType": "block",
@@ -375,6 +438,14 @@
 					"id": "destroy",
 					"objectClass": "virus",
 					"sid": 439305964712687
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "virus",
+					"sid": 136138537720747,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 386207826440642
@@ -486,6 +557,53 @@
 				}
 			],
 			"sid": 561628672377207
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 738849628883720,
+					"parameters": {
+						"variable": "Puntos",
+						"comparison": 0,
+						"value": "7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 913550536056867,
+					"parameters": {
+						"layout": "Escena 8"
+					}
+				}
+			],
+			"sid": 429494237119716
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 172902936623099
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto3",
+					"sid": 129845907477239,
+					"parameters": {
+						"text": "Puntos"
+					}
+				}
+			],
+			"sid": 713504534368787
 		}
 	],
 	"sid": 840262808002133

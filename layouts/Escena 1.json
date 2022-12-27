@@ -38,7 +38,7 @@
 				{
 					"type": "NecesitoAyuda",
 					"properties": {
-						"text": "Necesito tu ayuda para resolver una serie de cuestiones relacionadas con la informática.",
+						"text": "Necesito tu ayuda para resolver una serie de juegos relacionadas con la informática.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 50,
@@ -218,8 +218,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 113,
-						"y": 93,
+						"x": 97,
+						"y": 97,
 						"width": 1562,
 						"height": 355,
 						"originX": 0,

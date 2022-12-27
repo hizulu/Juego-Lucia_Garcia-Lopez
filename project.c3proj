@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Partículas",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Pin",
 			"name": "Pegado",
@@ -117,6 +125,14 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Parpadeo",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "77tslcwy6dq",
@@ -160,7 +176,24 @@
 			"spam",
 			"virus",
 			"phishing",
-			"Texto"
+			"Texto",
+			"Partículas",
+			"Partículas2",
+			"Texto2",
+			"adg",
+			"Texto3",
+			"Partículas3",
+			"Partículas4",
+			"Partículas5",
+			"Partículas6",
+			"YUEG",
+			"adg2",
+			"Geek4",
+			"Texto4",
+			"BocadilloComic2",
+			"Sprite2",
+			"Continuar2",
+			"Continuar3"
 		],
 		"subfolders": []
 	},
@@ -178,8 +211,10 @@
 			"Escena 4",
 			"Escena 5",
 			"Escena 6",
+			"Escena 9",
 			"Escena 7",
-			"Escena 8"
+			"Escena 8",
+			"Escena 10"
 		],
 		"subfolders": []
 	},
