@@ -1,0 +1,57 @@
+{
+	"name": "VGA_Hembra",
+	"plugin-id": "Sprite",
+	"sid": 808338584193293,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 678,
+						"height": 671,
+						"originX": 0.5029498525073747,
+						"originY": 0.503725782414307,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5473240,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5029498525073747,
+								0,
+								1,
+								0,
+								1,
+								0.503725782414307,
+								1,
+								1,
+								0.5029498525073747,
+								1,
+								0,
+								1,
+								0,
+								0.503725782414307
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 851156257612489,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

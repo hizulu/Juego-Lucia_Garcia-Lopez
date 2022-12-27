@@ -1,0 +1,37 @@
+{
+	"name": "RCA_Hembra",
+	"plugin-id": "Sprite",
+	"sid": 572453991369662,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 329,
+						"height": 681,
+						"originX": 0.5349544072948328,
+						"originY": 0.4977973568281938,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8637284,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 737771342497699,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

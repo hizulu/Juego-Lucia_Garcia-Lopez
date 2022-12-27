@@ -59,7 +59,12 @@
 			"IntroduceTuNombre",
 			"Comenzar",
 			"Botón",
-			"Sprite"
+			"Sprite",
+			"Texto",
+			"Euroconector_Hembra",
+			"HDMI_Hembra",
+			"VGA_Hembra",
+			"RCA_Hembra"
 		],
 		"subfolders": []
 	},
