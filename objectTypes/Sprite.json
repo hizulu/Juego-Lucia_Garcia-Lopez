@@ -1,0 +1,78 @@
+{
+	"name": "Sprite",
+	"plugin-id": "Sprite",
+	"sid": 459029432970900,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Plataforma",
+			"sid": 380879416380669
+		},
+		{
+			"behaviorId": "wrap",
+			"name": "Rodear",
+			"sid": 407427733181287
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "DesplazarHasta",
+			"sid": 989479435780329
+		},
+		{
+			"behaviorId": "jumpthru",
+			"name": "SaltoATravés",
+			"sid": 737457296079600
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 629,
+						"height": 615,
+						"originX": 0.47297297297297297,
+						"originY": 0.31219512195121946,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5256302,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.47297297297297297,
+								0,
+								1,
+								0,
+								1,
+								0.31219512195121946,
+								1,
+								1,
+								0.47297297297297297,
+								1,
+								0,
+								1,
+								0,
+								0.31219512195121946
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 323935515063476,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

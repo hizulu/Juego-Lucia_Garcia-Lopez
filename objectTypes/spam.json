@@ -1,0 +1,37 @@
+{
+	"name": "spam",
+	"plugin-id": "Sprite",
+	"sid": 955938463644645,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1748,
+						"height": 1240,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3923142,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 501764127135737,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

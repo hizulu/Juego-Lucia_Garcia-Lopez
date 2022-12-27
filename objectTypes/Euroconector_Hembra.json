@@ -4,7 +4,13 @@
 	"sid": 776677353186873,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 539106866084949
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -45,7 +51,7 @@
 				],
 				"sid": 120948934233197,
 				"name": "Animation 1",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

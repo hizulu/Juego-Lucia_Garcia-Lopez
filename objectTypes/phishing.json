@@ -1,0 +1,37 @@
+{
+	"name": "phishing",
+	"plugin-id": "Sprite",
+	"sid": 460947455079779,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 257,
+						"height": 286,
+						"originX": 0.5252918287937743,
+						"originY": 0.5314685314685315,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1688929,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 790125095458606,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
