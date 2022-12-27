@@ -226,8 +226,83 @@
 					"behaviorType": "ArrastrarYSoltar"
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 934158627560158,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
 			"sid": 318074232852070
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "HDMI_Conectado",
+					"sid": 807619045841162,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 646267785117108,
+					"parameters": {
+						"layout": "Escena 4"
+					}
+				}
+			],
+			"sid": 604616259341617
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "RCA_Conectado",
+					"sid": 587963180909285,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 128329894309380,
+					"parameters": {
+						"layout": "Escena 5"
+					}
+				}
+			],
+			"sid": 713469729951876
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "VGA_Conectado",
+					"sid": 752894366707934,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 545670212021336,
+					"parameters": {
+						"layout": "Escena 6"
+					}
+				}
+			],
+			"sid": 563174551821737
 		}
 	],
 	"sid": 840262808002133

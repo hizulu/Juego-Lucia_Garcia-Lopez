@@ -87,7 +87,14 @@
 			"Euroconector",
 			"RCA_Conectado",
 			"VGA_Conectado",
-			"HDMI_Conectado"
+			"HDMI_Conectado",
+			"Texto3",
+			"Euroconector_",
+			"EntradaDeTexto",
+			"Sprite2",
+			"pxHDMIConnector",
+			"Compositecables",
+			"KzKmyXwrL_AC_SS450_"
 		],
 		"subfolders": []
 	},
@@ -100,13 +107,18 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3",
+			"Escena 4",
+			"Escena 5",
+			"Escena 6"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},
