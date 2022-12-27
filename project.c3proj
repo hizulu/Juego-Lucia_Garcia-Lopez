@@ -48,16 +48,24 @@
 		},
 		{
 			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Arrastrar y soltar",
+			"id": "Pin",
+			"name": "Pegado",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pegado",
+			"id": "Flash",
+			"name": "Parpadeo",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -90,11 +98,14 @@
 			"HDMI_Conectado",
 			"Texto3",
 			"Euroconector_",
-			"EntradaDeTexto",
+			"Euroconoector_Entrada_Txt",
 			"Sprite2",
 			"pxHDMIConnector",
 			"Compositecables",
-			"KzKmyXwrL_AC_SS450_"
+			"KzKmyXwrL_AC_SS450_",
+			"HDMI",
+			"RCA",
+			"VGA"
 		],
 		"subfolders": []
 	},

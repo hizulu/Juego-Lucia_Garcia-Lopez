@@ -115,7 +115,7 @@
 							}
 						},
 						{
-							"type": "EntradaDeTexto",
+							"type": "Euroconoector_Entrada_Txt",
 							"properties": {
 								"text": "",
 								"placeholder": "",
