@@ -58,7 +58,8 @@
 			"EmpezarJuego",
 			"IntroduceTuNombre",
 			"Comenzar",
-			"Botón"
+			"Botón",
+			"Sprite"
 		],
 		"subfolders": []
 	},
