@@ -215,6 +215,19 @@
 				}
 			],
 			"sid": 539165129992318
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "Euroconector",
+					"sid": 279950448563146,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 318074232852070
 		}
 	],
 	"sid": 840262808002133

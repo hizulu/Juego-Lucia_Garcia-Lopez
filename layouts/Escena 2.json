@@ -56,8 +56,8 @@
 							"instanceVariables": {},
 							"behaviors": {},
 							"world": {
-								"x": 213,
-								"y": 903,
+								"x": 329,
+								"y": 875,
 								"width": 421,
 								"height": 363,
 								"originX": 0.5,
@@ -127,10 +127,10 @@
 							"instanceVariables": {},
 							"behaviors": {},
 							"world": {
-								"x": 574,
-								"y": 461,
-								"width": 308,
-								"height": 291,
+								"x": 598,
+								"y": 464,
+								"width": 429,
+								"height": 401,
 								"originX": 0.5,
 								"originY": 0.5,
 								"color": [
@@ -156,10 +156,10 @@
 							"instanceVariables": {},
 							"behaviors": {},
 							"world": {
-								"x": 950,
-								"y": 448,
-								"width": 354,
-								"height": 176,
+								"x": 1051,
+								"y": 441,
+								"width": 380,
+								"height": 172,
 								"originX": 0.5029821073558648,
 								"originY": 0.4918032786885246,
 								"color": [
@@ -185,10 +185,10 @@
 							"instanceVariables": {},
 							"behaviors": {},
 							"world": {
-								"x": 1353,
-								"y": 452,
-								"width": 315,
-								"height": 289,
+								"x": 1494,
+								"y": 420,
+								"width": 390,
+								"height": 319,
 								"originX": 0.5029498525073747,
 								"originY": 0.503725782414307,
 								"color": [
@@ -214,12 +214,247 @@
 							"instanceVariables": {},
 							"behaviors": {},
 							"world": {
-								"x": 1709,
-								"y": 474,
-								"width": 230,
-								"height": 454,
-								"originX": 0.5349544072948328,
-								"originY": 0.4977973568281938,
+								"x": 1788,
+								"y": 416.9735682819383,
+								"width": 170,
+								"height": 324,
+								"originX": 0.4650455927051672,
+								"originY": 0.5022026431718062,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "Texto2",
+							"properties": {
+								"text": "Puedes darle click a los cables para verlos mejor",
+								"enable-bbcode": true,
+								"font": "Arial",
+								"size": 30,
+								"line-height": 0,
+								"bold": false,
+								"italic": false,
+								"color": [
+									0,
+									0,
+									0,
+									1
+								],
+								"horizontal-alignment": "center",
+								"vertical-alignment": "top",
+								"wrapping": "word",
+								"initially-visible": true,
+								"origin": "top-left"
+							},
+							"uid": 16,
+							"instanceVariables": {},
+							"behaviors": {},
+							"world": {
+								"x": 76,
+								"y": 443,
+								"width": 233,
+								"height": 176,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "PrintableSpeechBubbleTemplate",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 17,
+							"instanceVariables": {},
+							"behaviors": {},
+							"world": {
+								"x": 190.5,
+								"y": 536,
+								"width": 395,
+								"height": 385,
+								"originX": 0.5,
+								"originY": 0.5,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "Euroconector",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 18,
+							"instanceVariables": {},
+							"behaviors": {
+								"ArrastrarYSoltar": {
+									"properties": {
+										"axes": "both",
+										"enabled": true
+									}
+								},
+								"Pegado": {
+									"properties": {
+										"destroy": false
+									}
+								}
+							},
+							"world": {
+								"x": 1026,
+								"y": 1061,
+								"width": 592,
+								"height": 348,
+								"originX": 0.9190283400809717,
+								"originY": 0.8590604026845637,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "RCA_Conectado",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Animation 1",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 19,
+							"instanceVariables": {},
+							"behaviors": {
+								"ArrastrarYSoltar": {
+									"properties": {
+										"axes": "both",
+										"enabled": true
+									}
+								},
+								"Pegado": {
+									"properties": {
+										"destroy": false
+									}
+								}
+							},
+							"world": {
+								"x": 1119,
+								"y": 746,
+								"width": 385,
+								"height": 386,
+								"originX": 0.5,
+								"originY": 0.5,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "VGA_Conectado",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 20,
+							"instanceVariables": {},
+							"behaviors": {
+								"ArrastrarYSoltar": {
+									"properties": {
+										"axes": "both",
+										"enabled": true
+									}
+								},
+								"Pegado": {
+									"properties": {
+										"destroy": false
+									}
+								}
+							},
+							"world": {
+								"x": 1775,
+								"y": 919,
+								"width": 334,
+								"height": 405,
+								"originX": 0.5,
+								"originY": 0.5,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"angle": 0,
+								"zElevation": 0
+							}
+						},
+						{
+							"type": "HDMI_Conectado",
+							"properties": {
+								"initially-visible": true,
+								"initial-animation": "Default",
+								"initial-frame": 0,
+								"enable-collisions": true,
+								"live-preview": false
+							},
+							"uid": 21,
+							"instanceVariables": {},
+							"behaviors": {
+								"ArrastrarYSoltar": {
+									"properties": {
+										"axes": "both",
+										"enabled": true
+									}
+								},
+								"Pegado": {
+									"properties": {
+										"destroy": false
+									}
+								}
+							},
+							"world": {
+								"x": 1374,
+								"y": 944,
+								"width": 468,
+								"height": 615,
+								"originX": 0.5,
+								"originY": 0.5,
 								"color": [
 									1,
 									1,

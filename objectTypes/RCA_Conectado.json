@@ -1,0 +1,66 @@
+{
+	"name": "RCA_Conectado",
+	"plugin-id": "Sprite",
+	"sid": 936052739891384,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 726014060455181
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 128157929520896
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 249,
+						"height": 206,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1428811,
+						"collisionPoly": {
+							"points": [
+								0.0963855421686747,
+								0.11650485436893204,
+								0.5,
+								0.5728155339805825,
+								0.5100401606425703,
+								0.587378640776699,
+								0.4457831325301205,
+								0.5,
+								0.5,
+								0.883495145631068,
+								0.2248995983935743,
+								0.7233009708737864,
+								0.22088353413654618,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 925343251156515,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -45,6 +45,22 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "77tslcwy6dq",
@@ -64,7 +80,14 @@
 			"Euroconector_Hembra",
 			"HDMI_Hembra",
 			"VGA_Hembra",
-			"RCA_Hembra"
+			"RCA_Hembra",
+			"Texto2",
+			"Bocadillo_Comic",
+			"PrintableSpeechBubbleTemplate",
+			"Euroconector",
+			"RCA_Conectado",
+			"VGA_Conectado",
+			"HDMI_Conectado"
 		],
 		"subfolders": []
 	},

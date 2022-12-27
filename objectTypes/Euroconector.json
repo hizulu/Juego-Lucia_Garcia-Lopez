@@ -1,0 +1,68 @@
+{
+	"name": "Euroconector",
+	"plugin-id": "Sprite",
+	"sid": 988685873267410,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 605149781764268
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 163676741926490
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 643,
+						"height": 392,
+						"originX": 0.9190283400809717,
+						"originY": 0.8590604026845637,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6791128,
+						"collisionPoly": {
+							"points": [
+								0.9004665629860031,
+								0.5,
+								0.8631415241057543,
+								0.7729591836734694,
+								0.5,
+								0.8852040816326531,
+								0.11041990668740276,
+								0.8188775510204082,
+								0.10886469673405907,
+								0.5,
+								0.1508553654743391,
+								0.24489795918367346,
+								0.5,
+								0.21428571428571427,
+								0.76049766718507,
+								0.39285714285714285
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 706254280723629,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

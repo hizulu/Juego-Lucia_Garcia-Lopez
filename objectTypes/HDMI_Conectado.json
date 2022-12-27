@@ -1,41 +1,40 @@
 {
-	"name": "RCA_Hembra",
+	"name": "HDMI_Conectado",
 	"plugin-id": "Sprite",
-	"sid": 572453991369662,
+	"sid": 101832043133888,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 606407261216622
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 493130262292059
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 329,
-						"height": 681,
-						"originX": 0.4650455927051672,
-						"originY": 0.5022026431718062,
+						"width": 394,
+						"height": 592,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4453302,
-						"collisionPoly": {
-							"points": [
-								1,
-								1,
-								0,
-								1,
-								0,
-								0,
-								1,
-								0
-							]
-						},
+						"imageSpriteId": 9902625,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 737771342497699,
+				"sid": 262376921279302,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

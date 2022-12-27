@@ -1,7 +1,7 @@
 {
-	"name": "Euroconector_Hembra",
+	"name": "PrintableSpeechBubbleTemplate",
 	"plugin-id": "Sprite",
-	"sid": 776677353186873,
+	"sid": 950882282711560,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,40 +11,32 @@
 			{
 				"frames": [
 					{
-						"width": 450,
-						"height": 450,
+						"width": 550,
+						"height": 425,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1370416,
+						"imageSpriteId": 7637646,
 						"collisionPoly": {
 							"points": [
+								1,
+								1,
+								0,
+								1,
 								0,
 								0,
-								0.5,
-								0,
-								0.9977777777777778,
-								0,
-								0.9977777777777778,
-								0.5,
-								0.9977777777777778,
-								0.9977777777777778,
-								0.5,
-								0.9977777777777778,
-								0,
-								0.9977777777777778,
-								0,
-								0.5
+								1,
+								0
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 120948934233197,
-				"name": "Animation 1",
+				"sid": 997544334480685,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
