@@ -1,0 +1,221 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "NombreUsuario",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": true,
+			"sid": 201478981447855
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 105166240661104
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "PresentacionGeek",
+					"sid": 924912729242774,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NecesitoAyuda",
+					"sid": 762152619044910,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PuntosSuspen",
+					"sid": 688987610507033,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "IntroduceTuNombre",
+					"sid": 507455340544694,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EmpezarJuego",
+					"sid": 713878650301975,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Comenzar",
+					"sid": 915209733879299,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 942440293321118
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "Geek1",
+					"sid": 331850877837443,
+					"parameters": {
+						"comparison": 0,
+						"number": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "PresentacionGeek",
+					"sid": 641334119710005,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NecesitoAyuda",
+					"sid": 638152540933211,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 115683837575925
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "Geek1",
+					"sid": 134352121536418,
+					"parameters": {
+						"comparison": 0,
+						"number": "18"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "NecesitoAyuda",
+					"sid": 690020641418702,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PuntosSuspen",
+					"sid": 211596146165988,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 748877611501743
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "Geek1",
+					"sid": 274929868489028,
+					"parameters": {
+						"comparison": 0,
+						"number": "20"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "PuntosSuspen",
+					"sid": 363500398516130,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "EmpezarJuego",
+					"sid": 422211394981732,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "IntroduceTuNombre",
+					"sid": 838100617877505,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "IntroduceTuNombre",
+					"sid": 134809924865090,
+					"parameters": {
+						"mode": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Comenzar",
+					"sid": 998387412178040,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 505296563644920
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Comenzar",
+					"sid": 931914885830442
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 769456918309734,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 539165129992318
+		}
+	],
+	"sid": 840262808002133
+}
