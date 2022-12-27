@@ -1,5 +1,5 @@
 {
-	"name": "Sprite",
+	"name": "Geek2",
 	"plugin-id": "Sprite",
 	"sid": 950529286934570,
 	"isGlobal": false,
@@ -333,7 +333,7 @@
 				],
 				"sid": 978716631830760,
 				"name": "Animación 1",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

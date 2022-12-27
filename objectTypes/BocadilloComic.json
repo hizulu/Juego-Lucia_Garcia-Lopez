@@ -1,7 +1,7 @@
 {
-	"name": "Bocadillo_Comic",
+	"name": "BocadilloComic",
 	"plugin-id": "Sprite",
-	"sid": 963476666792868,
+	"sid": 950882282711560,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5524998,
+						"imageSpriteId": 7637646,
 						"collisionPoly": {
 							"points": [
 								1,
@@ -35,7 +35,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 773142987227157,
+				"sid": 997544334480685,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

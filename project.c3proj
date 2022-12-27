@@ -24,8 +24,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Fondo en mosaico",
+			"id": "Button",
+			"name": "Botón",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -39,9 +39,9 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "Button",
-			"name": "Botón",
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -53,22 +53,6 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Flash",
-			"name": "Parpadeo",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "DragnDrop",
-			"name": "Arrastrar y soltar",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
 		}
 	],
 	"uniqueId": "77tslcwy6dq",
@@ -76,30 +60,26 @@
 		"items": [
 			"Geek1",
 			"PresentacionGeek",
-			"FondoEnMosaico",
 			"NecesitoAyuda",
 			"PuntosSuspen",
 			"EmpezarJuego",
-			"IntroduceTuNombre",
 			"Comenzar",
-			"Botón",
-			"Sprite",
-			"Texto",
+			"Geek2",
+			"PrimeraPregunta",
 			"Euroconector_Hembra",
 			"HDMI_Hembra",
 			"VGA_Hembra",
 			"RCA_Hembra",
-			"Texto2",
-			"Bocadillo_Comic",
-			"PrintableSpeechBubbleTemplate",
+			"Baile",
+			"BocadilloComic",
 			"Euroconector",
 			"RCA_Conectado",
 			"VGA_Conectado",
 			"HDMI_Conectado",
-			"Texto3",
+			"NombreTipoCable",
 			"Euroconector_",
 			"Euroconoector_Entrada_Txt",
-			"Sprite2",
+			"Geek3",
 			"pxHDMIConnector",
 			"Compositecables",
 			"KzKmyXwrL_AC_SS450_",
@@ -122,14 +102,14 @@
 			"Escena 3",
 			"Escena 4",
 			"Escena 5",
-			"Escena 6"
+			"Escena 6",
+			"Escena 7"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 1"
 		],
 		"subfolders": []
 	},
