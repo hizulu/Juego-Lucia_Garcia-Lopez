@@ -57,7 +57,8 @@
 			"PuntosSuspen",
 			"EmpezarJuego",
 			"IntroduceTuNombre",
-			"Comenzar"
+			"Comenzar",
+			"Botón"
 		],
 		"subfolders": []
 	},

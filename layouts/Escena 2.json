@@ -42,6 +42,37 @@
 								"angle": 0,
 								"zElevation": 0
 							}
+						},
+						{
+							"type": "Botón",
+							"properties": {
+								"type": "button",
+								"text": "OK",
+								"tooltip": "",
+								"initially-visible": true,
+								"enabled": true,
+								"auto-font-size": true,
+								"checked": false,
+								"id": "",
+								"class": ""
+							},
+							"uid": 8,
+							"instanceVariables": {},
+							"behaviors": {},
+							"world": {
+								"x": 1546,
+								"y": 178,
+								"width": 72,
+								"height": 24,
+								"originX": 0,
+								"originY": 0,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								]
+							}
 						}
 					],
 					"sid": 860254504832058,
