@@ -9,7 +9,7 @@
 				{
 					"type": "PrimeraPregunta",
 					"properties": {
-						"text": "Primera pregunta.\n¿Podrías nombrar los siguientes cables y enchufarlos a su conector correspondiente?",
+						"text": "Primera prueba.\n¿Podrías nombrar los siguientes cables?",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 50,
@@ -49,122 +49,6 @@
 					}
 				},
 				{
-					"type": "Euroconector_Hembra",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 12,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 614,
-						"y": 506,
-						"width": 429,
-						"height": 401,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "HDMI_Hembra",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1051,
-						"y": 441,
-						"width": 380,
-						"height": 172,
-						"originX": 0.5029821073558648,
-						"originY": 0.4918032786885246,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "VGA_Hembra",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1494,
-						"y": 420,
-						"width": 390,
-						"height": 319,
-						"originX": 0.5029498525073747,
-						"originY": 0.503725782414307,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "RCA_Hembra",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 15,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1788,
-						"y": 416.9735682819383,
-						"width": 170,
-						"height": 324,
-						"originX": 0.4650455927051672,
-						"originY": 0.5022026431718062,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Geek2",
 					"properties": {
 						"initially-visible": true,
@@ -177,15 +61,15 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 321,
-						"y": 909,
-						"width": 421,
-						"height": 363,
+						"x": 873,
+						"y": 721,
+						"width": 753,
+						"height": 732,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							1,
-							1,
+							0.47843137254901963,
+							0.6784313725490196,
 							1,
 							1
 						],
@@ -219,8 +103,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 64,
-						"y": 460,
+						"x": 236,
+						"y": 301,
 						"width": 276,
 						"height": 221,
 						"originX": 0,
@@ -248,8 +132,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 207,
-						"y": 565,
+						"x": 364,
+						"y": 413,
 						"width": 379,
 						"height": 348,
 						"originX": 0.5,
@@ -265,167 +149,34 @@
 					}
 				},
 				{
-					"type": "Euroconector",
+					"type": "Continuar",
 					"properties": {
+						"type": "button",
+						"text": "Continuar",
+						"tooltip": "",
 						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
 					},
-					"uid": 18,
+					"uid": 10,
 					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						},
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 1034,
-						"y": 1044,
-						"width": 592,
-						"height": 348,
-						"originX": 0.9190283400809717,
-						"originY": 0.8590604026845637,
+						"x": 1567,
+						"y": 655,
+						"width": 296,
+						"height": 156,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "RCA_Conectado",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						},
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 1223,
-						"y": 886,
-						"width": 385,
-						"height": 386,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "VGA_Conectado",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 20,
-					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						},
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 1775,
-						"y": 919,
-						"width": 334,
-						"height": 405,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "HDMI_Conectado",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 21,
-					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": true
-							}
-						},
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"world": {
-						"x": 1516,
-						"y": 911,
-						"width": 326.6497461928934,
-						"height": 574.4847972972973,
-						"originX": 0.7163636363636363,
-						"originY": 0.46473779385171793,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
+						]
 					}
 				}
 			],
@@ -440,45 +191,12 @@
 				1
 			],
 			"backgroundColor": [
-				1,
-				1,
+				0.47843137254901963,
+				0.6784313725490196,
 				1,
 				1
 			],
 			"isTransparent": false,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
-			"name": "Capa 1",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [],
-			"sid": 384693497035002,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
@@ -500,5 +218,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Hoja de eventos 1"
 }

@@ -2,6 +2,16 @@
 	"name": "Hoja de eventos 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Puntos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 580521663587327
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -186,32 +196,296 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Euroconector_Hembra",
-					"sid": 402255853178836,
+					"id": "on-clicked",
+					"objectClass": "Continuar",
+					"sid": 887760850245654
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 669305808157058,
 					"parameters": {
-						"object": "Euroconector"
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 968907557332365
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "Euroconoector_Entrada_Txt",
+					"sid": 716206980808460,
+					"parameters": {
+						"text": "\"Euroconector\"",
+						"case": "case-insensitive"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "pin-to-object-properties",
-					"objectClass": "Euroconector",
-					"sid": 903853012158858,
-					"behaviorType": "Pegado",
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 727199023572649,
 					"parameters": {
-						"pin-to": "Euroconector_Hembra",
-						"x": true,
-						"y": true,
-						"angle": true,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
+						"which": "next"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 804071545141286,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
 					}
 				}
 			],
-			"sid": 923151559365109
+			"sid": 841530437631520
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "HDMI",
+					"sid": 366819206798392,
+					"parameters": {
+						"text": "\"HDMI\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 313304179355663,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 416422029244096,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 494982258686349
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "RCA",
+					"sid": 882949259197581,
+					"parameters": {
+						"text": "\"RCA\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 369150652329531,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 471305643330840,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 506854317692569
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "VGA",
+					"sid": 268467546265004,
+					"parameters": {
+						"text": "\"VGA\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 832161806203135,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 477299121089509,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 553559441747838
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 277610571571712,
+					"parameters": {
+						"object": "virus"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 323250521836281,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "virus",
+					"sid": 439305964712687
+				}
+			],
+			"sid": 386207826440642
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 759709592932594,
+					"parameters": {
+						"object": "spam"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 926083434577979,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "spam",
+					"sid": 877975912883702
+				}
+			],
+			"sid": 133189200442706
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 371041006363711,
+					"parameters": {
+						"object": "phishing"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 322499345145256,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "phishing",
+					"sid": 844449990754382
+				}
+			],
+			"sid": 197061672576656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 746114179642547,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite",
+					"sid": 437480151953526,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 657808966684490
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 362278069518525,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite",
+					"sid": 520430252050082,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 561628672377207
 		}
 	],
 	"sid": 840262808002133
