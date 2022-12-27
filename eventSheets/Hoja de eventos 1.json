@@ -37,14 +37,6 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "IntroduceTuNombre",
-					"sid": 507455340544694,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
 					"objectClass": "EmpezarJuego",
 					"sid": 713878650301975,
 					"parameters": {
@@ -160,22 +152,6 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "IntroduceTuNombre",
-					"sid": 838100617877505,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "IntroduceTuNombre",
-					"sid": 134809924865090,
-					"parameters": {
-						"mode": "enabled"
-					}
-				},
-				{
-					"id": "set-visible",
 					"objectClass": "Comenzar",
 					"sid": 998387412178040,
 					"parameters": {
@@ -198,13 +174,44 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 769456918309734,
+					"sid": 900297111356467,
 					"parameters": {
 						"layout": "Escena 2"
 					}
 				}
 			],
 			"sid": 539165129992318
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Euroconector_Hembra",
+					"sid": 402255853178836,
+					"parameters": {
+						"object": "Euroconector"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Euroconector",
+					"sid": 903853012158858,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "Euroconector_Hembra",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 923151559365109
 		}
 	],
 	"sid": 840262808002133

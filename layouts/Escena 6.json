@@ -4,209 +4,142 @@
 		{
 			"name": "Capa 0",
 			"overriden": 0,
-			"subLayers": [
+			"subLayers": [],
+			"instances": [
 				{
-					"name": "Capa 1",
-					"overriden": 0,
-					"subLayers": [],
-					"instances": [
-						{
-							"type": "FondoEnMosaico",
-							"properties": {
-								"initially-visible": true,
-								"origin": "top-left",
-								"wrap-horizontal": "repeat",
-								"wrap-vertical": "repeat",
-								"image-offset-x": 0,
-								"image-offset-y": 0,
-								"image-scale-x": 1,
-								"image-scale-y": 1,
-								"image-angle": 0
-							},
-							"uid": 37,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": -50,
-								"y": -22,
-								"width": 2017,
-								"height": 1143,
-								"originX": 0,
-								"originY": 0,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "Texto3",
-							"properties": {
-								"text": "¿Cómo se llama este tipo de cable?",
-								"enable-bbcode": true,
-								"font": "Arial",
-								"size": 70,
-								"line-height": 0,
-								"bold": false,
-								"italic": false,
-								"color": [
-									0,
-									0,
-									0,
-									1
-								],
-								"horizontal-alignment": "left",
-								"vertical-alignment": "top",
-								"wrapping": "word",
-								"initially-visible": true,
-								"origin": "top-left"
-							},
-							"uid": 38,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 6,
-								"y": 14,
-								"width": 1621,
-								"height": 229,
-								"originX": 0,
-								"originY": 0,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "Sprite2",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Animation 1",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 41,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 1557.5,
-								"y": 762.5,
-								"width": 443.7037037037037,
-								"height": 435.9555555555555,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "KzKmyXwrL_AC_SS450_",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Default",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 39,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 641,
-								"y": 611,
-								"width": 993,
-								"height": 860,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "VGA",
-							"properties": {
-								"text": "",
-								"placeholder": "",
-								"tooltip": "",
-								"initially-visible": true,
-								"enabled": true,
-								"read-only": false,
-								"spell-check": false,
-								"type": "text",
-								"auto-font-size": true,
-								"id": "",
-								"class": ""
-							},
-							"uid": 40,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 1335,
-								"y": 262,
-								"width": 425,
-								"height": 186,
-								"originX": 0,
-								"originY": 0,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								]
-							}
-						}
-					],
-					"sid": 285549312533403,
-					"effectTypes": [],
-					"isInitiallyVisible": true,
-					"isInitiallyInteractive": true,
-					"color": [
-						1,
-						1,
-						1,
-						1
-					],
-					"backgroundColor": [
-						0.3686274509803922,
-						0.3686274509803922,
-						0.3686274509803922,
-						1
-					],
-					"isTransparent": true,
-					"parallaxX": 1,
-					"parallaxY": 1,
-					"scaleRate": 1,
-					"forceOwnTexture": false,
-					"renderingMode": "3d",
-					"drawOrder": "z-order",
-					"useRenderCells": false,
-					"blendMode": "normal",
-					"zElevation": 0,
-					"global": false
+					"type": "NombreTipoCable",
+					"properties": {
+						"text": "¿Cómo se llama este tipo de cable?",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 70,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 38,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6,
+						"y": 14,
+						"width": 1621,
+						"height": 229,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Geek3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 41,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1557.5,
+						"y": 762.5,
+						"width": 443.7037037037037,
+						"height": 435.9555555555555,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "KzKmyXwrL_AC_SS450_",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 641,
+						"y": 611,
+						"width": 993,
+						"height": 860,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "VGA",
+					"properties": {
+						"text": "",
+						"placeholder": "",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"read-only": false,
+						"spell-check": false,
+						"type": "text",
+						"auto-font-size": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1335,
+						"y": 262,
+						"width": 425,
+						"height": 186,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
-			"instances": [],
 			"sid": 766238675947399,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -218,9 +151,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				1,
+				1,
+				1,
 				1
 			],
 			"isTransparent": false,
@@ -245,5 +178,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": null
 }

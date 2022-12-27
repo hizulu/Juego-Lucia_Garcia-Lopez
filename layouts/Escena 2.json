@@ -4,521 +4,465 @@
 		{
 			"name": "Capa 0",
 			"overriden": 0,
-			"subLayers": [
+			"subLayers": [],
+			"instances": [
 				{
-					"name": "Capa 1",
-					"overriden": 0,
-					"subLayers": [],
-					"instances": [
-						{
-							"type": "FondoEnMosaico",
+					"type": "PrimeraPregunta",
+					"properties": {
+						"text": "Primera pregunta.\n¿Podrías nombrar los siguientes cables y enchufarlos a su conector correspondiente?",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 91,
+						"y": 72,
+						"width": 1785,
+						"height": 251,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Euroconector_Hembra",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 614,
+						"y": 506,
+						"width": 429,
+						"height": 401,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HDMI_Hembra",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1051,
+						"y": 441,
+						"width": 380,
+						"height": 172,
+						"originX": 0.5029821073558648,
+						"originY": 0.4918032786885246,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "VGA_Hembra",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1494,
+						"y": 420,
+						"width": 390,
+						"height": 319,
+						"originX": 0.5029498525073747,
+						"originY": 0.503725782414307,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "RCA_Hembra",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1788,
+						"y": 416.9735682819383,
+						"width": 170,
+						"height": 324,
+						"originX": 0.4650455927051672,
+						"originY": 0.5022026431718062,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Geek2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animación 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 321,
+						"y": 909,
+						"width": 421,
+						"height": 363,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Baile",
+					"properties": {
+						"text": "Te bailaré, porque no sé diferenciar estos cables",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 64,
+						"y": 460,
+						"width": 276,
+						"height": 221,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BocadilloComic",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 207,
+						"y": 565,
+						"width": 379,
+						"height": 348,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Euroconector",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
 							"properties": {
-								"initially-visible": true,
-								"origin": "top-left",
-								"wrap-horizontal": "repeat",
-								"wrap-vertical": "repeat",
-								"image-offset-x": 0,
-								"image-offset-y": 0,
-								"image-scale-x": 1,
-								"image-scale-y": 1,
-								"image-angle": 0
-							},
-							"uid": 10,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": -73,
-								"y": -54,
-								"width": 2017,
-								"height": 1143,
-								"originX": 0,
-								"originY": 0,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
+								"axes": "both",
+								"enabled": true
 							}
 						},
-						{
-							"type": "Sprite",
+						"Pegado": {
 							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Animación 1",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 8,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 321,
-								"y": 909,
-								"width": 421,
-								"height": 363,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "Texto",
-							"properties": {
-								"text": "Primera pregunta.\n¿Podrías nombrar los siguientes cables y enchufarlos a su conector correspondiente?",
-								"enable-bbcode": true,
-								"font": "Arial",
-								"size": 50,
-								"line-height": 0,
-								"bold": true,
-								"italic": false,
-								"color": [
-									0,
-									0,
-									0,
-									1
-								],
-								"horizontal-alignment": "left",
-								"vertical-alignment": "top",
-								"wrapping": "word",
-								"initially-visible": true,
-								"origin": "top-left"
-							},
-							"uid": 11,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 91,
-								"y": 72,
-								"width": 1785,
-								"height": 251,
-								"originX": 0,
-								"originY": 0,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "Euroconector_Hembra",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Animation 1",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 12,
-							"instanceVariables": {},
-							"behaviors": {
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 614,
-								"y": 506,
-								"width": 429,
-								"height": 401,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "HDMI_Hembra",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Animation 1",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 13,
-							"instanceVariables": {},
-							"behaviors": {
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 1051,
-								"y": 441,
-								"width": 380,
-								"height": 172,
-								"originX": 0.5029821073558648,
-								"originY": 0.4918032786885246,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "VGA_Hembra",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Animation 1",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 14,
-							"instanceVariables": {},
-							"behaviors": {
-								"Parpadeo": {
-									"properties": {}
-								}
-							},
-							"world": {
-								"x": 1494,
-								"y": 420,
-								"width": 390,
-								"height": 319,
-								"originX": 0.5029498525073747,
-								"originY": 0.503725782414307,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "RCA_Hembra",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Default",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 15,
-							"instanceVariables": {},
-							"behaviors": {
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 1788,
-								"y": 416.9735682819383,
-								"width": 170,
-								"height": 324,
-								"originX": 0.4650455927051672,
-								"originY": 0.5022026431718062,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "Texto2",
-							"properties": {
-								"text": "Puedes darle click a los cables para verlos mejor",
-								"enable-bbcode": true,
-								"font": "Arial",
-								"size": 30,
-								"line-height": 0,
-								"bold": false,
-								"italic": false,
-								"color": [
-									0,
-									0,
-									0,
-									1
-								],
-								"horizontal-alignment": "center",
-								"vertical-alignment": "top",
-								"wrapping": "word",
-								"initially-visible": true,
-								"origin": "top-left"
-							},
-							"uid": 16,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 76,
-								"y": 443,
-								"width": 233,
-								"height": 176,
-								"originX": 0,
-								"originY": 0,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "PrintableSpeechBubbleTemplate",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Default",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 17,
-							"instanceVariables": {},
-							"behaviors": {},
-							"world": {
-								"x": 190.5,
-								"y": 536,
-								"width": 395,
-								"height": 385,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "Euroconector",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Default",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 18,
-							"instanceVariables": {},
-							"behaviors": {
-								"ArrastrarYSoltar": {
-									"properties": {
-										"axes": "both",
-										"enabled": true
-									}
-								},
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 1034,
-								"y": 1044,
-								"width": 592,
-								"height": 348,
-								"originX": 0.9190283400809717,
-								"originY": 0.8590604026845637,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "RCA_Conectado",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Animation 1",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 19,
-							"instanceVariables": {},
-							"behaviors": {
-								"ArrastrarYSoltar": {
-									"properties": {
-										"axes": "both",
-										"enabled": true
-									}
-								},
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 1223,
-								"y": 886,
-								"width": 385,
-								"height": 386,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "VGA_Conectado",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Default",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 20,
-							"instanceVariables": {},
-							"behaviors": {
-								"ArrastrarYSoltar": {
-									"properties": {
-										"axes": "both",
-										"enabled": true
-									}
-								},
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 1775,
-								"y": 919,
-								"width": 334,
-								"height": 405,
-								"originX": 0.5,
-								"originY": 0.5,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
-							}
-						},
-						{
-							"type": "HDMI_Conectado",
-							"properties": {
-								"initially-visible": true,
-								"initial-animation": "Default",
-								"initial-frame": 0,
-								"enable-collisions": true,
-								"live-preview": false
-							},
-							"uid": 21,
-							"instanceVariables": {},
-							"behaviors": {
-								"ArrastrarYSoltar": {
-									"properties": {
-										"axes": "both",
-										"enabled": true
-									}
-								},
-								"Pegado": {
-									"properties": {
-										"destroy": false
-									}
-								}
-							},
-							"world": {
-								"x": 1516,
-								"y": 911,
-								"width": 326.6497461928934,
-								"height": 574.4847972972973,
-								"originX": 0.7163636363636363,
-								"originY": 0.46473779385171793,
-								"color": [
-									1,
-									1,
-									1,
-									1
-								],
-								"angle": 0,
-								"zElevation": 0
+								"destroy": false
 							}
 						}
-					],
-					"sid": 860254504832058,
-					"effectTypes": [],
-					"isInitiallyVisible": true,
-					"isInitiallyInteractive": true,
-					"color": [
-						1,
-						1,
-						1,
-						1
-					],
-					"backgroundColor": [
-						0.3686274509803922,
-						0.3686274509803922,
-						0.3686274509803922,
-						1
-					],
-					"isTransparent": true,
-					"parallaxX": 1,
-					"parallaxY": 1,
-					"scaleRate": 1,
-					"forceOwnTexture": false,
-					"renderingMode": "3d",
-					"drawOrder": "z-order",
-					"useRenderCells": false,
-					"blendMode": "normal",
-					"zElevation": 0,
-					"global": false
+					},
+					"world": {
+						"x": 1034,
+						"y": 1044,
+						"width": 592,
+						"height": 348,
+						"originX": 0.9190283400809717,
+						"originY": 0.8590604026845637,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "RCA_Conectado",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 1223,
+						"y": 886,
+						"width": 385,
+						"height": 386,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "VGA_Conectado",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 1775,
+						"y": 919,
+						"width": 334,
+						"height": 405,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HDMI_Conectado",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": true
+							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 1516,
+						"y": 911,
+						"width": 326.6497461928934,
+						"height": 574.4847972972973,
+						"originX": 0.7163636363636363,
+						"originY": 0.46473779385171793,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"instances": [],
 			"sid": 780421577115014,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Capa 1",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [],
+			"sid": 384693497035002,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -534,7 +478,7 @@
 				0.3686274509803922,
 				1
 			],
-			"isTransparent": false,
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,
