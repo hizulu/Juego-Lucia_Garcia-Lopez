@@ -72,7 +72,7 @@
 					"type": "Geek2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animación 1",
+						"initial-animation": "Animación 2",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -81,15 +81,15 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1018,
-						"y": 782.5,
-						"width": 619.7840908661951,
-						"height": 609.2716217529435,
+						"x": 992,
+						"y": 649,
+						"width": 879.1584549269872,
+						"height": 907.8664958698251,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,
-							0.8980392156862745,
+							1,
 							1,
 							1
 						],
