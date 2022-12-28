@@ -19,8 +19,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 925,
-						"y": 686,
+						"x": 859,
+						"y": 669,
 						"width": 838,
 						"height": 884.0000000000001,
 						"originX": 0.5,
@@ -120,28 +120,35 @@
 					}
 				},
 				{
-					"type": "EntradaDeTexto",
+					"type": "Texto25",
 					"properties": {
-						"text": "Continuar",
-						"placeholder": "",
-						"tooltip": "",
+						"text": "Pulsa la tecla \"0\" para continuar",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "right",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"enabled": true,
-						"read-only": false,
-						"spell-check": false,
-						"type": "text",
-						"auto-font-size": true,
-						"id": "",
-						"class": ""
+						"origin": "top-left"
 					},
 					"uid": 158,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1513,
-						"y": 685,
-						"width": 276,
-						"height": 82,
+						"x": 1540,
+						"y": 713,
+						"width": 298,
+						"height": 406,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -149,7 +156,9 @@
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
