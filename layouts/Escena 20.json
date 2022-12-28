@@ -1,5 +1,5 @@
 {
-	"name": "Escena 19",
+	"name": "Escena 20",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,22 +7,22 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite5",
+					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Default",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 153,
+					"uid": 48,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 426,
-						"y": 734,
-						"width": 720,
-						"height": 716,
+						"x": 490,
+						"y": 679,
+						"width": 838,
+						"height": 884.0000000000001,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -36,71 +36,9 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Texto18",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 154,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1086,
-						"y": 425,
-						"width": 972,
-						"height": 593,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "FondoEnMosaico3",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 155,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 26,
-						"y": 24,
-						"width": 1847,
-						"height": 369,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Texto16",
-					"properties": {
-						"text": "¡Genial! El número binario 1110 se corresponde al número 14 en sistema decimal.",
+						"text": "¡Increible!¡Has conseguido     puntos!",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 50,
@@ -119,14 +57,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 152,
+					"uid": 100,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 125,
-						"y": 116,
-						"width": 1637,
-						"height": 182,
+						"x": 337,
+						"y": 68,
+						"width": 1133,
+						"height": 177,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -138,9 +76,82 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "puntosX",
+					"properties": {
+						"text": "X",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 157,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1152,
+						"y": 69,
+						"width": 81,
+						"height": 90,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón2",
+					"properties": {
+						"type": "button",
+						"text": "Continuar",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 158,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1225,
+						"y": 664,
+						"width": 409,
+						"height": 182,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
-			"sid": 364337019018872,
+			"sid": 253264363480526,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -151,9 +162,9 @@
 				1
 			],
 			"backgroundColor": [
+				0.9803921568627451,
 				1,
-				0.6,
-				0.6,
+				0.7215686274509804,
 				1
 			],
 			"isTransparent": false,
@@ -169,7 +180,7 @@
 			"global": false
 		}
 	],
-	"sid": 372578219194747,
+	"sid": 143935395283741,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,

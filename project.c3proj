@@ -267,7 +267,16 @@
 			"ControlDeslizante4",
 			"Texto15",
 			"Texto16",
-			"Sprite5"
+			"Sprite5",
+			"ControlDeslizante5",
+			"Texto17",
+			"Texto18",
+			"puntosX",
+			"Botón2",
+			"Texto19",
+			"Texto20",
+			"Texto21",
+			"Texto22"
 		],
 		"subfolders": []
 	},
@@ -286,7 +295,6 @@
 			"Escena 5",
 			"Escena 6",
 			"Escena 7",
-			"Escena 8",
 			"Escena 9",
 			"Escena 10",
 			"Escena 11",
@@ -297,7 +305,9 @@
 			"Escena 16",
 			"Escena 17",
 			"Escena 18",
-			"Escena 19"
+			"Escena 19",
+			"Escena 20",
+			"Escena 8"
 		],
 		"subfolders": []
 	},

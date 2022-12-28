@@ -12,6 +12,46 @@
 			"sid": 580521663587327
 		},
 		{
+			"eventType": "variable",
+			"name": "Variable1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 667563500488051
+		},
+		{
+			"eventType": "variable",
+			"name": "Variable2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 864237420110415
+		},
+		{
+			"eventType": "variable",
+			"name": "Variable3",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 396879109452964
+		},
+		{
+			"eventType": "variable",
+			"name": "Variable4",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 763484613186204
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -568,9 +608,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 913550536056867,
+					"sid": 964294140849374,
 					"parameters": {
-						"layout": "Escena 8"
+						"layout": "Escena 20"
 					}
 				}
 			],
@@ -588,8 +628,8 @@
 			"actions": [
 				{
 					"id": "set-text",
-					"objectClass": "Texto3",
-					"sid": 129845907477239,
+					"objectClass": "puntosX",
+					"sid": 232848021826615,
 					"parameters": {
 						"text": "Puntos"
 					}
@@ -602,17 +642,17 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "Continuar4",
-					"sid": 848077749675478
+					"objectClass": "Botón2",
+					"sid": 161405204871970
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 732848984814471,
+					"sid": 745698087259943,
 					"parameters": {
-						"layout": "Escena 11"
+						"layout": "\"Escena 11\""
 					}
 				}
 			],
@@ -965,7 +1005,299 @@
 				{
 					"id": "compare-value",
 					"objectClass": "ControlDeslizante",
-					"sid": 562871193834926,
+					"sid": 407240411818987,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 116375363406453,
+					"parameters": {
+						"variable": "Variable1",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 954390258878496
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 723732205271961,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 882261536149218,
+					"parameters": {
+						"variable": "Variable1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 417304568350178
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante2",
+					"sid": 137257984181553,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 747804418572840,
+					"parameters": {
+						"variable": "Variable2",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 204451894658102
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante2",
+					"sid": 585872623300006,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 255128238390035,
+					"parameters": {
+						"variable": "Variable2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 231786944344653
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante3",
+					"sid": 170379216977564,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 198211080643354,
+					"parameters": {
+						"variable": "Variable3",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 490758105586245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante3",
+					"sid": 545698508573970,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 348640254989817,
+					"parameters": {
+						"variable": "Variable3",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 434266295728291
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante4",
+					"sid": 325749772970288,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 242431753781010,
+					"parameters": {
+						"variable": "Variable4",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 301728792832669
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante4",
+					"sid": 435099515151715,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 970898774382378,
+					"parameters": {
+						"variable": "Variable4",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 605082183716354
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 765164536211426
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto19",
+					"sid": 985517834037862,
+					"parameters": {
+						"text": "Variable1"
+					}
+				}
+			],
+			"sid": 605202429620381
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 512060365336207
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto20",
+					"sid": 336941905001361,
+					"parameters": {
+						"text": "Variable2"
+					}
+				}
+			],
+			"sid": 497064153694900
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 886034507405799
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto21",
+					"sid": 115355337522914,
+					"parameters": {
+						"text": "Variable3"
+					}
+				}
+			],
+			"sid": 900509403402659
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 467258403074604
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto22",
+					"sid": 433077350568129,
+					"parameters": {
+						"text": "Variable4"
+					}
+				}
+			],
+			"sid": 273398097427351
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 197644882068489,
 					"parameters": {
 						"comparison": 0,
 						"value": "1"
@@ -974,7 +1306,7 @@
 				{
 					"id": "compare-value",
 					"objectClass": "ControlDeslizante2",
-					"sid": 354553402263742,
+					"sid": 295509742938382,
 					"parameters": {
 						"comparison": 0,
 						"value": "1"
@@ -983,7 +1315,7 @@
 				{
 					"id": "compare-value",
 					"objectClass": "ControlDeslizante3",
-					"sid": 515226065991616,
+					"sid": 386342525006591,
 					"parameters": {
 						"comparison": 0,
 						"value": "1"
@@ -992,7 +1324,7 @@
 				{
 					"id": "compare-value",
 					"objectClass": "ControlDeslizante4",
-					"sid": 940731816553869,
+					"sid": 678403230411984,
 					"parameters": {
 						"comparison": 0,
 						"value": "0"
@@ -1003,13 +1335,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 907875469261358,
+					"sid": 579616603456196,
 					"parameters": {
 						"layout": "Escena 19"
 					}
 				}
 			],
-			"sid": 468687117424982
+			"sid": 904215606081749
 		}
 	],
 	"sid": 840262808002133

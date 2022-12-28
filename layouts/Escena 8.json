@@ -5,224 +5,8 @@
 			"name": "Capa 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [
-				{
-					"type": "Texto2",
-					"properties": {
-						"text": "¡¡Genial!! Has conseguido ",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 45,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 141,
-						"y": 115,
-						"width": 892,
-						"height": 270,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "adg",
-					"properties": {
-						"text": "puntos.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 46,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1332,
-						"y": 115,
-						"width": 463,
-						"height": 104,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Texto3",
-					"properties": {
-						"text": "Texto",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 47,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1006,
-						"y": 115,
-						"width": 200,
-						"height": 95,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 44,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 3634,
-						"y": 557,
-						"width": 2186,
-						"height": 2517,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 48,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 982,
-						"y": 677,
-						"width": 838,
-						"height": 884.0000000000001,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Continuar4",
-					"properties": {
-						"type": "button",
-						"text": "Continuar",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 77,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1481,
-						"y": 717,
-						"width": 296,
-						"height": 156,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				}
-			],
-			"sid": 238913964232413,
+			"instances": [],
+			"sid": 387537658692658,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -233,9 +17,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.9803921568627451,
-				1,
-				0.7215686274509804,
+				0.2901960784313726,
+				0.6313725490196078,
+				0.4823529411764706,
 				1
 			],
 			"isTransparent": false,
@@ -251,7 +35,7 @@
 			"global": false
 		}
 	],
-	"sid": 825240754168504,
+	"sid": 903172122387233,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,

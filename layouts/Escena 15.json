@@ -9,7 +9,7 @@
 				{
 					"type": "Texto2",
 					"properties": {
-						"text": "¡¡Genial!! Has conseguido ",
+						"text": "¡¡Genial!! Has conseguido      puntos.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 50,
@@ -32,52 +32,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 141,
-						"y": 115,
-						"width": 892,
+						"x": 194,
+						"y": 105,
+						"width": 1281,
 						"height": 270,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "adg",
-					"properties": {
-						"text": "puntos.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 91,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1332,
-						"y": 115,
-						"width": 463,
-						"height": 104,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -93,7 +51,7 @@
 				{
 					"type": "Texto3",
 					"properties": {
-						"text": "Texto",
+						"text": "T",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 50,
@@ -117,40 +75,11 @@
 					"behaviors": {},
 					"world": {
 						"x": 1006,
-						"y": 115,
-						"width": 200,
+						"y": 105,
+						"width": 44,
 						"height": 95,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 100,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 3634,
-						"y": 557,
-						"width": 2186,
-						"height": 2517,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
