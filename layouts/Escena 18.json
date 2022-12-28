@@ -1,0 +1,370 @@
+{
+	"name": "Escena 18",
+	"layers": [
+		{
+			"name": "Capa 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "FlorkNavidad❤️☃️🎄",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 142,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 955,
+						"y": 823,
+						"width": 548,
+						"height": 511,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ControlDeslizante",
+					"properties": {
+						"value": 0,
+						"minimum": 0,
+						"maximum": 1,
+						"step": 1,
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 144,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 42,
+						"y": 249,
+						"width": 353,
+						"height": 107,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "ControlDeslizante2",
+					"properties": {
+						"value": 0,
+						"minimum": 0,
+						"maximum": 1,
+						"step": 1,
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 145,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 513,
+						"y": 248,
+						"width": 353,
+						"height": 107,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "ControlDeslizante3",
+					"properties": {
+						"value": 0,
+						"minimum": 0,
+						"maximum": 1,
+						"step": 1,
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 146,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 971,
+						"y": 250,
+						"width": 353,
+						"height": 107,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "ControlDeslizante4",
+					"properties": {
+						"value": 0,
+						"minimum": 0,
+						"maximum": 1,
+						"step": 1,
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 147,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1431,
+						"y": 249,
+						"width": 353,
+						"height": 107,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Texto15",
+					"properties": {
+						"text": "0              1",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 148,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 47,
+						"y": 118,
+						"width": 340,
+						"height": 120,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto15",
+					"properties": {
+						"text": "0              1",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 149,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 520,
+						"y": 126,
+						"width": 340,
+						"height": 120,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto15",
+					"properties": {
+						"text": "0              1",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 150,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 981,
+						"y": 133,
+						"width": 340,
+						"height": 120,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto15",
+					"properties": {
+						"text": "0              1",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 151,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1444,
+						"y": 128,
+						"width": 340,
+						"height": 120,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 907323423419322,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.29411764705882354,
+				0,
+				0.4,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 815002607112433,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 3840,
+	"height": 2160,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Hoja de eventos 1"
+}

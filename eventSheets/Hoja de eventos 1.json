@@ -911,6 +911,105 @@
 				}
 			],
 			"sid": 964818760408251
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 641462222820849,
+					"parameters": {
+						"variable": "Puntos",
+						"comparison": 5,
+						"value": "10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 576194320613822,
+					"parameters": {
+						"layout": "Escena 17"
+					}
+				}
+			],
+			"sid": 282465777643007
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar7",
+					"sid": 913951575852357
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 323139011969502,
+					"parameters": {
+						"layout": "Escena 18"
+					}
+				}
+			],
+			"sid": 979581300608116
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 562871193834926,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante2",
+					"sid": 354553402263742,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante3",
+					"sid": 515226065991616,
+					"parameters": {
+						"comparison": 0,
+						"value": "1"
+					}
+				},
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante4",
+					"sid": 940731816553869,
+					"parameters": {
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 907875469261358,
+					"parameters": {
+						"layout": "Escena 19"
+					}
+				}
+			],
+			"sid": 468687117424982
 		}
 	],
 	"sid": 840262808002133

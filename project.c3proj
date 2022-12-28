@@ -71,6 +71,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "sliderbar",
+			"name": "Control deslizante",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Pin",
 			"name": "Pegado",
@@ -248,7 +256,16 @@
 			"Cero",
 			"Uno_",
 			"Uno_2",
-			"Uno_3"
+			"Uno_3",
+			"Texto14",
+			"ColeccionImagenesDeFlork_ImágenesParaPeques3",
+			"Continuar7",
+			"FlorkNavidad❤️☃️🎄",
+			"ControlDeslizante",
+			"ControlDeslizante2",
+			"ControlDeslizante3",
+			"ControlDeslizante4",
+			"Texto15"
 		],
 		"subfolders": []
 	},
@@ -276,7 +293,9 @@
 			"Escena 14",
 			"Escena 15",
 			"Escena 16",
-			"Escena 17"
+			"Escena 17",
+			"Escena 18",
+			"Escena 19"
 		],
 		"subfolders": []
 	},
