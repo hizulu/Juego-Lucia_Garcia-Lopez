@@ -281,7 +281,10 @@
 			"Texto23",
 			"EntradaDeTexto",
 			"Texto24",
-			"Texto25"
+			"Texto25",
+			"Continuar8",
+			"Texto26",
+			"Continuar9"
 		],
 		"subfolders": []
 	},
@@ -312,7 +315,8 @@
 			"Escena 18",
 			"Escena 19",
 			"Escena 20",
-			"Escena 8"
+			"Escena 8",
+			"Escena 21"
 		],
 		"subfolders": []
 	},

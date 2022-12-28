@@ -52,6 +52,16 @@
 			"sid": 763484613186204
 		},
 		{
+			"eventType": "variable",
+			"name": "sos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 330115341461655
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -641,19 +651,24 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 900561683629295,
-					"parameters": {
-						"key": 48
-					}
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 757002181671486
 				}
 			],
 			"actions": [
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 544088525720051,
+					"parameters": {
+						"seconds": "10"
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 990541542562329,
+					"sid": 782134887259477,
 					"parameters": {
 						"layout": "Escena 11"
 					}
@@ -665,25 +680,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "key-is-down",
-					"objectClass": "Teclado",
-					"sid": 927104178615818,
-					"parameters": {
-						"key": 188
-					}
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 188143062121675
 				}
 			],
 			"actions": [
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 535578659813598,
+					"parameters": {
+						"seconds": "10"
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 924858552380819,
+					"sid": 921476230114229,
 					"parameters": {
 						"layout": "Escena 12"
 					}
 				}
 			],
-			"sid": 898757634697501
+			"sid": 364431059109114
 		},
 		{
 			"eventType": "block",
@@ -1369,6 +1389,48 @@
 				}
 			],
 			"sid": 904215606081749
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar8",
+					"sid": 973112093635527
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 172272373443954,
+					"parameters": {
+						"layout": "Escena 8"
+					}
+				}
+			],
+			"sid": 522630904553291
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar9",
+					"sid": 676107291886884
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 915025852016708,
+					"parameters": {
+						"layout": "Escena 21"
+					}
+				}
+			],
+			"sid": 803744849112559
 		}
 	],
 	"sid": 840262808002133
