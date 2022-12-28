@@ -278,8 +278,8 @@
 						}
 					},
 					"world": {
-						"x": 196.2854449622972,
-						"y": -33.18254263314162,
+						"x": 190,
+						"y": 8,
 						"width": 49,
 						"height": 211,
 						"originX": 0,
@@ -1530,14 +1530,7 @@
 					},
 					"uid": 134,
 					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 306,
 						"y": 120,
@@ -1594,5 +1587,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Hoja de eventos 1"
 }

@@ -787,9 +787,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-overlapping-another-object",
+					"id": "on-collision-with-another-object",
 					"objectClass": "Flork_Empujando",
-					"sid": 470734452879011,
+					"sid": 461874494091134,
 					"parameters": {
 						"object": "Cero"
 					}
