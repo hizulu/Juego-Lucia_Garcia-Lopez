@@ -228,20 +228,20 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-nextprevious-layout",
-					"objectClass": "System",
-					"sid": 727199023572649,
-					"parameters": {
-						"which": "next"
-					}
-				},
-				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
 					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 727199023572649,
+					"parameters": {
+						"which": "next"
 					}
 				}
 			],
@@ -264,7 +264,7 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 313304179355663,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
@@ -298,7 +298,7 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 369150652329531,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
@@ -332,7 +332,7 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 832161806203135,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
@@ -428,7 +428,7 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 323250521836281,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
@@ -456,18 +456,18 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "spam",
+					"sid": 877975912883702
+				},
+				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 926083434577979,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
 					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "spam",
-					"sid": 877975912883702
 				}
 			],
 			"sid": 133189200442706
@@ -486,18 +486,18 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "phishing",
+					"sid": 844449990754382
+				},
+				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 322499345145256,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
 					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "phishing",
-					"sid": 844449990754382
 				}
 			],
 			"sid": 197061672576656
@@ -671,20 +671,20 @@
 			],
 			"actions": [
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 108102759201480,
-					"parameters": {
-						"variable": "Puntos",
-						"value": "1"
-					}
-				},
-				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 216456564564257,
 					"parameters": {
 						"layout": "Escena 14"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 804071545141286,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
 					}
 				}
 			],
@@ -728,6 +728,15 @@
 					"parameters": {
 						"layout": "Escena 13"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 804071545141286,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 292565555946251
@@ -764,20 +773,20 @@
 			],
 			"actions": [
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 438246393006707,
-					"parameters": {
-						"variable": "Puntos",
-						"value": "1"
-					}
-				},
-				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 516214896708768,
 					"parameters": {
 						"layout": "Escena 15"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 804071545141286,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
 					}
 				}
 			],
@@ -797,20 +806,17 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "Cero",
+					"sid": 501617777861704
+				},
+				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 680805334042792,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Cero",
-					"sid": 618997171451281,
-					"parameters": {
-						"visibility": "invisible"
 					}
 				}
 			],
@@ -818,12 +824,26 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Flork_Empujando",
+					"sid": 859219555092182,
+					"parameters": {
+						"object": "Uno_"
+					}
+				}
+			],
 			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Cero",
+					"sid": 514881425275778
+				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 144780593508302,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
@@ -834,12 +854,26 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Flork_Empujando",
+					"sid": 258662245033079,
+					"parameters": {
+						"object": "Uno_2"
+					}
+				}
+			],
 			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Cero",
+					"sid": 923080624846318
+				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 124386340347815,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
@@ -850,12 +884,26 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Flork_Empujando",
+					"sid": 234965496450996,
+					"parameters": {
+						"object": "Uno_3"
+					}
+				}
+			],
 			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Cero",
+					"sid": 448216556261702
+				},
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 464313742315128,
+					"sid": 804071545141286,
 					"parameters": {
 						"variable": "Puntos",
 						"value": "1"
