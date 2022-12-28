@@ -52,6 +52,16 @@
 			"sid": 763484613186204
 		},
 		{
+			"eventType": "variable",
+			"name": "tiempo",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 230587249422310
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -423,7 +433,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 258930784271861,
+					"sid": 536742737370357,
 					"parameters": {
 						"layout": "Escena 10"
 					}
@@ -641,22 +651,22 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-clicked",
-					"objectClass": "Botón2",
-					"sid": 161405204871970
+					"id": "on-any-click",
+					"objectClass": "Mouse",
+					"sid": 385917418066342
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-layout-by-name",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 745698087259943,
+					"sid": 173633024365119,
 					"parameters": {
-						"layout": "\"Escena 11\""
+						"layout": "Escena 11"
 					}
 				}
 			],
-			"sid": 939380732435717
+			"sid": 426994151298996
 		},
 		{
 			"eventType": "block",
