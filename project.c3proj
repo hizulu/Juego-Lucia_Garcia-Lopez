@@ -265,7 +265,9 @@
 			"ControlDeslizante2",
 			"ControlDeslizante3",
 			"ControlDeslizante4",
-			"Texto15"
+			"Texto15",
+			"Texto16",
+			"Sprite5"
 		],
 		"subfolders": []
 	},
