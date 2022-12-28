@@ -438,14 +438,6 @@
 					"id": "destroy",
 					"objectClass": "virus",
 					"sid": 439305964712687
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "virus",
-					"sid": 136138537720747,
-					"parameters": {
-						"visibility": "invisible"
-					}
 				}
 			],
 			"sid": 386207826440642
@@ -790,6 +782,87 @@
 				}
 			],
 			"sid": 437452073646758
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Flork_Empujando",
+					"sid": 470734452879011,
+					"parameters": {
+						"object": "Cero"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 680805334042792,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Cero",
+					"sid": 618997171451281,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 593685042756214
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 144780593508302,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 944504665581454
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 124386340347815,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 628865093280020
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 464313742315128,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 964818760408251
 		}
 	],
 	"sid": 840262808002133

@@ -133,6 +133,22 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Movimiento en cuadrícula",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancla",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "77tslcwy6dq",
@@ -224,7 +240,12 @@
 			"Texto13",
 			"Falso3",
 			"Verdadero3",
-			"Continuar6"
+			"Continuar6",
+			"FondoEnMosaico4",
+			"FlorkPNGImagensPNG2",
+			"Flork_Empujando",
+			"FondoEnMosaico5",
+			"Cero"
 		],
 		"subfolders": []
 	},
@@ -250,7 +271,8 @@
 			"Escena 12",
 			"Escena 13",
 			"Escena 14",
-			"Escena 15"
+			"Escena 15",
+			"Escena 16"
 		],
 		"subfolders": []
 	},

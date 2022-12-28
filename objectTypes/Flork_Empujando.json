@@ -1,0 +1,43 @@
+{
+	"name": "Flork_Empujando",
+	"plugin-id": "Sprite",
+	"sid": 239836091756331,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "TileMovement",
+			"name": "MovimientoEnCuadrícula",
+			"sid": 995869013951480
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 616,
+						"height": 796,
+						"originX": 0.474025974025974,
+						"originY": 0.714824120603015,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1029061,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 208824943743670,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
