@@ -1,0 +1,37 @@
+{
+	"name": "FlorkPNGImagensPNG",
+	"plugin-id": "Sprite",
+	"sid": 411910698258874,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 586,
+						"height": 600,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3657754,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 764544165310935,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

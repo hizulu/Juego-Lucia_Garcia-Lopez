@@ -7,35 +7,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Geek2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animación 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 44,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1018,
-						"y": 782.5,
-						"width": 619.7840908661951,
-						"height": 609.2716217529435,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							0.9921568627450981,
-							0.7215686274509804,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Texto2",
 					"properties": {
 						"text": "¡¡Genial!! Has conseguido ",
@@ -146,7 +117,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 1006,
-						"y": 130,
+						"y": 115,
 						"width": 200,
 						"height": 95,
 						"originX": 0,
@@ -162,39 +133,52 @@
 					}
 				},
 				{
-					"type": "Partículas3",
+					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques",
 					"properties": {
-						"rate": 50,
-						"spray-cone": 60,
-						"type": "continuous-spray",
-						"object": -1,
-						"live-preview": false,
-						"speed": 200,
-						"size": 32,
-						"opacity": 100,
-						"grow-rate": 50,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": 50,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 3634,
+						"y": 557,
+						"width": 2186,
+						"height": 2517,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 48,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 425,
-						"y": 454,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
+						"x": 982,
+						"y": 677,
+						"width": 838,
+						"height": 884,
+						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,
@@ -207,138 +191,34 @@
 					}
 				},
 				{
-					"type": "Partículas4",
+					"type": "Continuar4",
 					"properties": {
-						"rate": 50,
-						"spray-cone": 60,
-						"type": "continuous-spray",
-						"object": -1,
-						"live-preview": false,
-						"speed": 2000,
-						"size": 32,
-						"opacity": 100,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 200,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
+						"type": "button",
+						"text": "Continuar",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
 					},
-					"uid": 49,
+					"uid": 77,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1554,
-						"y": 695,
-						"width": 100,
-						"height": 100,
+						"x": 1481,
+						"y": 717,
+						"width": 296,
+						"height": 156,
 						"originX": 0,
-						"originY": 0.5,
+						"originY": 0,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Partículas5",
-					"properties": {
-						"rate": 50,
-						"spray-cone": 60,
-						"type": "continuous-spray",
-						"object": -1,
-						"live-preview": false,
-						"speed": 450,
-						"size": 50,
-						"opacity": 100,
-						"grow-rate": 90,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 50,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1483,
-						"y": 399,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Partículas6",
-					"properties": {
-						"rate": 50,
-						"spray-cone": 30,
-						"type": "continuous-spray",
-						"object": -1,
-						"live-preview": false,
-						"speed": 200,
-						"size": 32,
-						"opacity": 100,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 500,
-						"acceleration": 1000,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 51,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 474,
-						"y": 970,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
+						]
 					}
 				}
 			],

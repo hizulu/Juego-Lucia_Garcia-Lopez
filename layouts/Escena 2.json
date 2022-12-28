@@ -7,6 +7,97 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Geek2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animación 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 873,
+						"y": 721,
+						"width": 753,
+						"height": 732.0000000000001,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							0.8588235294117647,
+							0.9137254901960784,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 72,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1381,
+						"y": 321,
+						"width": 492,
+						"height": 366,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FondoEnMosaico3",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 73,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 45,
+						"y": 25,
+						"width": 1522,
+						"height": 223,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "PrimeraPregunta",
 					"properties": {
 						"text": "Primera prueba.\n¿Podrías nombrar los siguientes cables?",
@@ -32,8 +123,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 91,
-						"y": 72,
+						"x": 57,
+						"y": 45,
 						"width": 1785,
 						"height": 251,
 						"originX": 0,
@@ -41,35 +132,6 @@
 						"color": [
 							1,
 							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Geek2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animación 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 873,
-						"y": 721,
-						"width": 753,
-						"height": 732.0000000000001,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							0.47843137254901963,
-							0.6784313725490196,
 							1,
 							1
 						],
@@ -165,8 +227,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1567,
-						"y": 655,
+						"x": 1438,
+						"y": 569,
 						"width": 296,
 						"height": 156,
 						"originX": 0,
@@ -191,8 +253,8 @@
 				1
 			],
 			"backgroundColor": [
-				0.47843137254901963,
-				0.6784313725490196,
+				0.8588235294117647,
+				0.9137254901960784,
 				1,
 				1
 			],

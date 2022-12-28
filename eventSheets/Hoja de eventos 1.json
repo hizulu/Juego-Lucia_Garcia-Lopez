@@ -604,6 +604,192 @@
 				}
 			],
 			"sid": 713504534368787
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar4",
+					"sid": 848077749675478
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 732848984814471,
+					"parameters": {
+						"layout": "Escena 11"
+					}
+				}
+			],
+			"sid": 939380732435717
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Continuar5",
+					"sid": 729129329207202
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 266397116282811,
+					"parameters": {
+						"layout": "Escena 12"
+					}
+				}
+			],
+			"sid": 420921409418249
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Verdadero1",
+					"sid": 496341840718772
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 491077506770149,
+					"parameters": {
+						"layout": "Escena 14"
+					}
+				}
+			],
+			"sid": 530942662008904
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Falso1",
+					"sid": 421440385233858
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 108102759201480,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 216456564564257,
+					"parameters": {
+						"layout": "Escena 14"
+					}
+				}
+			],
+			"sid": 526479779346438
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Verdadero2",
+					"sid": 156864946600646
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 461926632870996,
+					"parameters": {
+						"layout": "Escena 13"
+					}
+				}
+			],
+			"sid": 345254121519080
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Falso2",
+					"sid": 580140368584320
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 203314357989906,
+					"parameters": {
+						"layout": "Escena 13"
+					}
+				}
+			],
+			"sid": 292565555946251
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Verdadero3",
+					"sid": 734402426018923
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 173836493724540,
+					"parameters": {
+						"layout": "Escena 15"
+					}
+				}
+			],
+			"sid": 844711611875941
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Falso3",
+					"sid": 589337981800607
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 438246393006707,
+					"parameters": {
+						"variable": "Puntos",
+						"value": "1"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 516214896708768,
+					"parameters": {
+						"layout": "Escena 15"
+					}
+				}
+			],
+			"sid": 437452073646758
 		}
 	],
 	"sid": 840262808002133

@@ -22,13 +22,13 @@
 						"x": 545,
 						"y": 689.5,
 						"width": 730.9875776397516,
-						"height": 817.5809253246753,
+						"height": 817.5809253246754,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							0.9764705882352941,
-							0.8156862745098039,
-							0.5450980392156862,
+							1,
+							0.9411764705882353,
+							0.8392156862745098,
 							1
 						],
 						"angle": 0,
@@ -36,7 +36,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "Sprite4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -44,16 +44,49 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+					"uid": 68,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1276,
+						"y": 459,
+						"width": 972,
+						"height": 593,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FondoEnMosaico3",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
 					"uid": 62,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 803.5,
-						"y": 196.5,
-						"width": 1667,
-						"height": 415,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 48,
+						"y": 43,
+						"width": 1522,
+						"height": 334,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -149,9 +182,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.9764705882352941,
-				0.8156862745098039,
-				0.5450980392156862,
+				1,
+				0.9411764705882353,
+				0.8392156862745098,
 				1
 			],
 			"isTransparent": false,

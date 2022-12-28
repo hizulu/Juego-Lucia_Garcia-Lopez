@@ -1,0 +1,37 @@
+{
+	"name": "ColeccionImagenesDeFlork_ImágenesParaPeques2",
+	"plugin-id": "Sprite",
+	"sid": 143479718088207,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2186,
+						"height": 2517,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5425374,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 230328298168310,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

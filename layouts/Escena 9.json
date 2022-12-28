@@ -7,6 +7,68 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 70,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1323,
+						"y": 456,
+						"width": 592,
+						"height": 593,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FondoEnMosaico3",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 71,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 43,
+						"y": 34,
+						"width": 1522,
+						"height": 334,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Geek2",
 					"properties": {
 						"initially-visible": true,
@@ -26,8 +88,8 @@
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
-							0.996078431372549,
-							0.7215686274509804,
+							1,
+							0.8980392156862745,
 							1,
 							1
 						],
@@ -384,8 +446,8 @@
 				1
 			],
 			"backgroundColor": [
-				0.996078431372549,
-				0.7215686274509804,
+				1,
+				0.8980392156862745,
 				1,
 				1
 			],
