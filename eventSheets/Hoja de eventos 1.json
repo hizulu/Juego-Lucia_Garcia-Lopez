@@ -52,16 +52,6 @@
 			"sid": 763484613186204
 		},
 		{
-			"eventType": "variable",
-			"name": "tiempo",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 230587249422310
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
