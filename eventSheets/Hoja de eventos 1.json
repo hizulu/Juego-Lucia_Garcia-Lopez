@@ -618,9 +618,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 964294140849374,
+					"sid": 250587811405221,
 					"parameters": {
-						"layout": "Escena 20"
+						"layout": "Escena 11"
 					}
 				}
 			],
@@ -674,7 +674,7 @@
 				{
 					"id": "on-clicked",
 					"objectClass": "Continuar11",
-					"sid": 473081183213809
+					"sid": 417570361708053
 				}
 			],
 			"actions": [
