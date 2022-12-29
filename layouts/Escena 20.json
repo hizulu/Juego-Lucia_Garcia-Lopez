@@ -7,6 +7,39 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "FondoEnMosaico12",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 168,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -39,
+						"y": -42,
+						"width": 2044,
+						"height": 1209,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.5
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "ColeccionImagenesDeFlork_ImágenesParaPeques2",
 					"properties": {
 						"initially-visible": true,
@@ -40,7 +73,7 @@
 					"properties": {
 						"text": "¡Increible!¡Has conseguido     puntos!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 50,
 						"line-height": 0,
 						"bold": false,
@@ -63,7 +96,7 @@
 					"world": {
 						"x": 337,
 						"y": 68,
-						"width": 1133,
+						"width": 1441,
 						"height": 177,
 						"originX": 0,
 						"originY": 0,
@@ -82,7 +115,7 @@
 					"properties": {
 						"text": "X",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 50,
 						"line-height": 0,
 						"bold": false,
@@ -103,8 +136,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1152,
-						"y": 69,
+						"x": 1348,
+						"y": 68,
 						"width": 81,
 						"height": 90,
 						"originX": 0,
@@ -120,35 +153,26 @@
 					}
 				},
 				{
-					"type": "Texto25",
+					"type": "Continuar10",
 					"properties": {
-						"text": "Pulsa la tecla \"0\" para continuar",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "right",
-						"vertical-alignment": "top",
-						"wrapping": "word",
+						"type": "button",
+						"text": "Continuar",
+						"tooltip": "",
 						"initially-visible": true,
-						"origin": "top-left"
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
 					},
-					"uid": 158,
+					"uid": 77,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1540,
-						"y": 713,
-						"width": 298,
-						"height": 406,
+						"x": 1488,
+						"y": 724,
+						"width": 296,
+						"height": 156,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -156,9 +180,7 @@
 							1,
 							1,
 							1
-						],
-						"angle": 0,
-						"zElevation": 0
+						]
 					}
 				}
 			],

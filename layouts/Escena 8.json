@@ -7,6 +7,39 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "FondoEnMosaico14",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 173,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -28,
+						"y": -39,
+						"width": 1989,
+						"height": 1170,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Geek5",
 					"properties": {
 						"initially-visible": true,
@@ -19,10 +52,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 805,
-						"y": 729,
-						"width": 809.3297942546584,
-						"height": 742.1839285714285,
+						"x": 742,
+						"y": 728,
+						"width": 935.3297942546584,
+						"height": 744.1839285714285,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -40,7 +73,7 @@
 					"properties": {
 						"text": "Me temo que ya hemos acabado el juego.\n¡Has conseguido   puntos de los 15 puntos totales!¡Increíble!",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 50,
 						"line-height": 0,
 						"bold": false,
@@ -61,10 +94,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 267,
-						"y": 107,
-						"width": 1390,
-						"height": 216,
+						"x": 167,
+						"y": 44,
+						"width": 1574,
+						"height": 299,
 						"originX": 0,
 						"originY": 0,
 						"color": [

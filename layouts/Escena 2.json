@@ -7,6 +7,68 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "FondoEnMosaico7",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -12,
+						"y": -7,
+						"width": 1957,
+						"height": 1139,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.25
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BocadilloComic",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 364,
+						"y": 413,
+						"width": 379,
+						"height": 348,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Geek2",
 					"properties": {
 						"initially-visible": true,
@@ -102,7 +164,7 @@
 					"properties": {
 						"text": "Primera prueba.\n¿Podrías nombrar los siguientes cables?",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 50,
 						"line-height": 0,
 						"bold": true,
@@ -144,7 +206,7 @@
 					"properties": {
 						"text": "Te bailaré, porque no sé diferenciar estos cables",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 30,
 						"line-height": 0,
 						"bold": false,
@@ -165,41 +227,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 236,
+						"x": 227,
 						"y": 301,
 						"width": 276,
 						"height": 221,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BocadilloComic",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 364,
-						"y": 413,
-						"width": 379,
-						"height": 348,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,

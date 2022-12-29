@@ -7,6 +7,39 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "FondoEnMosaico9",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 47,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -23,
+						"y": -47,
+						"width": 3895,
+						"height": 2220,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.25
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
@@ -49,12 +82,12 @@
 						}
 					},
 					"world": {
-						"x": 234.30671641791045,
-						"y": 767.6017316017316,
-						"width": 252.53880597014924,
-						"height": 285.75757575757575,
-						"originX": 0.47297297297297297,
-						"originY": 0.31219512195121946,
+						"x": 208,
+						"y": 653,
+						"width": 214.2966766169154,
+						"height": 259.72188552188555,
+						"originX": 0.47701149425287354,
+						"originY": 0.508557457212714,
 						"color": [
 							1,
 							1,
@@ -92,7 +125,7 @@
 						"x": -20,
 						"y": 1073,
 						"width": 4047,
-						"height": 341,
+						"height": 438,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -129,8 +162,8 @@
 						}
 					},
 					"world": {
-						"x": 1065,
-						"y": 587,
+						"x": 1020,
+						"y": 589,
 						"width": 398,
 						"height": 70,
 						"originX": 0,
@@ -169,8 +202,8 @@
 						}
 					},
 					"world": {
-						"x": 473,
-						"y": 827,
+						"x": 376,
+						"y": 831,
 						"width": 398,
 						"height": 70,
 						"originX": 0,
@@ -249,8 +282,8 @@
 						}
 					},
 					"world": {
-						"x": 1697,
-						"y": 402,
+						"x": 1652,
+						"y": 404,
 						"width": 398,
 						"height": 70,
 						"originX": 0,
@@ -278,8 +311,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1830,
-						"y": 884,
+						"x": 2160,
+						"y": 839,
 						"width": 249.00000000000003,
 						"height": 187,
 						"originX": 0.5,
@@ -307,8 +340,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1852,
-						"y": 260,
+						"x": 1826,
+						"y": 269,
 						"width": 188,
 						"height": 164,
 						"originX": 0.5,
@@ -336,8 +369,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 248,
-						"y": 153,
+						"x": 239,
+						"y": 200,
 						"width": 141.65058479532163,
 						"height": 177.04761904761907,
 						"originX": 0.5252918287937743,
@@ -437,10 +470,10 @@
 					"properties": {
 						"text": "¿Qué haces aquí arriba?",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 100,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -459,7 +492,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 55,
-						"y": 1510,
+						"y": 1585,
 						"width": 1684,
 						"height": 277,
 						"originX": 0,
@@ -479,10 +512,10 @@
 					"properties": {
 						"text": "¿Qué haces aquí arriba?",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 100,
 						"line-height": 0,
-						"bold": false,
+						"bold": true,
 						"italic": false,
 						"color": [
 							0,
@@ -501,7 +534,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 2044,
-						"y": 1510,
+						"y": 1585,
 						"width": 1684,
 						"height": 277,
 						"originX": 0,

@@ -7,6 +7,39 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "FondoEnMosaico8",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 46,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -18,
+						"y": -10,
+						"width": 1991,
+						"height": 1134,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0.5
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite4",
 					"properties": {
 						"initially-visible": true,
@@ -53,9 +86,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 43,
-						"y": 34,
+						"y": 141,
 						"width": 1522,
-						"height": 334,
+						"height": 227,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -102,7 +135,7 @@
 					"properties": {
 						"text": "¡¡Genial!! Has conseguido    puntos.",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Consolas",
 						"size": 50,
 						"line-height": 0,
 						"bold": false,
@@ -123,10 +156,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 214,
-						"y": 96,
-						"width": 1185,
-						"height": 270,
+						"x": 134,
+						"y": 202,
+						"width": 1326,
+						"height": 120,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -345,8 +378,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1001,
-						"y": 96,
+						"x": 1098,
+						"y": 202,
 						"width": 52,
 						"height": 104,
 						"originX": 0,

@@ -21,11 +21,23 @@
 						"imageSpriteId": 5039851,
 						"useCollisionPoly": true,
 						"duration": 1
+					},
+					{
+						"width": 997,
+						"height": 889,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5670079,
+						"useCollisionPoly": true,
+						"duration": 1
 					}
 				],
 				"sid": 372849010528723,
 				"name": "Default",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

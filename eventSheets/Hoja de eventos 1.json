@@ -651,20 +651,12 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 757002181671486
+					"id": "on-clicked",
+					"objectClass": "Continuar10",
+					"sid": 424303867601982
 				}
 			],
 			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 544088525720051,
-					"parameters": {
-						"seconds": "10"
-					}
-				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
@@ -680,20 +672,12 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 188143062121675
+					"id": "on-clicked",
+					"objectClass": "Continuar11",
+					"sid": 473081183213809
 				}
 			],
 			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 535578659813598,
-					"parameters": {
-						"seconds": "10"
-					}
-				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
