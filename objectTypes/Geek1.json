@@ -40,7 +40,7 @@
 							]
 						},
 						"useCollisionPoly": true,
-						"duration": 5
+						"duration": 10
 					},
 					{
 						"width": 1177,

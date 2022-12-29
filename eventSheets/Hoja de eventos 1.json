@@ -672,9 +672,13 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-clicked",
-					"objectClass": "Continuar11",
-					"sid": 417570361708053
+					"id": "compare-time",
+					"objectClass": "System",
+					"sid": 152572738152843,
+					"parameters": {
+						"comparison": 0,
+						"time-seconds": "65"
+					}
 				}
 			],
 			"actions": [
